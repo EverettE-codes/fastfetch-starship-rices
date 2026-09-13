@@ -7,7 +7,8 @@ $username\
 $directory\
 [](fg:second_red bg:third_red)\
 $git_branch(bg:third_red)\
-[ ](fg:third_red)"""
+[](fg:third_red)\
+$character"""
 [username]
 show_always = true
 style_user = "bold white"
@@ -24,7 +25,8 @@ symbol = " "
 style = "bg:third_red fg:white"
 format = "([on $symbol$branch](bg:third_red fg:white))"
 [character]
-error_symbol = "[X](bold red) "
+success_symbol = ""
+error_symbol = "[X](fg:fourth_red)"
 [palettes.powerline]
 first_red = "#750000"
 second_red = "#A30000"
