@@ -1,5 +1,5 @@
 #!/bin/bash
 mkdir -p ~/.config/fastfetch
-cp ~/arch/config.jsonc ~/.config/fastfetch/config.jsonc
-cp ~/arch/starship.toml ~/.config/starship.toml
+cp ~/fastfetch-starship-rices/arch/config.jsonc ~/.config/fastfetch/config.jsonc
+cp ~/fastfetch-starship-rices/arch/starship.toml ~/.config/starship.toml
 
