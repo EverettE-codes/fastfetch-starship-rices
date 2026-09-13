@@ -26,7 +26,7 @@ style = "bg:third_red fg:white"
 format = "([on $symbol$branch](bg:third_red fg:white))"
 [character]
 success_symbol = ""
-error_symbol = "[X](fg:fourth_red)"
+error_symbol = "[X](fourth_red)"
 [palettes.powerline]
 first_red = "#750000"
 second_red = "#A30000"
