@@ -1,0 +1,32 @@
+palette = "powerline"
+format = """
+[](fg:first_red)\
+$username\
+[@](fg:white bg:first_red)\
+[](fg:first_red bg:second_red)\
+$directory\
+[](fg:second_red bg:third_red)\
+$git_branch(bg:third_red)\
+[ ](fg:third_red)"""
+[username]
+show_always = true
+style_user = "bold white"
+style_root = "bold blue"
+format = "[$user](bg:first_red)"
+disabled = false
+[directory]
+read_only = ""
+truncation_length = 3
+truncate_to_repo = true
+format = "[$path](fg:white bg:second_red)"
+[git_branch]
+symbol = " "
+style = "bg:third_red fg:white"
+format = "([on $symbol$branch](bg:third_red fg:white))"
+[character]
+error_symbol = "[X](bold red) "
+[palettes.powerline]
+first_red = "#750000"
+second_red = "#A30000"
+third_red = "#D10000"
+fourth_red = "#FF0000"
