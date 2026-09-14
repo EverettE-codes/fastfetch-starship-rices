@@ -3,10 +3,11 @@
   "display": {
     "color": {
       "keys": "red"
+      "title": "red"
     }
   },
   "logo": {
-    "type": "kitty",
+    "type": "auto",
     "source": "~/fastfetch-starship-rices/debian/debian.png",
     "height": 18
     "padding": {
