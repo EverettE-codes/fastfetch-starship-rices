@@ -13,6 +13,7 @@
     "padding": {
       "top": 1,
       "bottom": 1
+    }
   },
   "modules": [
     "title",
